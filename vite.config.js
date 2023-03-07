@@ -9,5 +9,10 @@ export default defineConfig({
     server: {
         host: true,
         open: './index.html',
+    },
+    build: {
+        outDir: "./dist",
+        emptyOutDir: true,
+        sourcemap: true
     }
 })
